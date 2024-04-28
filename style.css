@@ -48,7 +48,7 @@
         padding: 14px 20px;
         text-decoration: none;
         font-size: 26px;
-        font-family: 'Montserrat', sans-serif;
+        font-family: 'Poppins', sans-serif;
       }
       
       .topnav .icon {
@@ -191,12 +191,13 @@
         .head{
             color: #E3E7D3;
             font-size: 30px;
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Poppins', sans-serif;
             margin-top:-15%;
             margin-bottom: 6%;
             position: absolute;
             left: 50%;
             transform: translate(-50%, -50%);
+            letter-spacing: 5px;
           }
           @media (max-width: 495px){
             .h1{
@@ -211,9 +212,9 @@
          
         
           .heading{
-            font-family: 'Montserrat',sans-serif;
+            font-family: 'Poppins',sans-serif;
             font-size: 38px;
-            padding-top: 120px;
+            padding-top: 220px;
             color: #0C1618;
             letter-spacing: 0.09em;
             text-decoration: none;
@@ -242,6 +243,51 @@
             left: 0; 
           }
           #abt{
-            height: 40em;
+            height: 35em;
             background-color: #D092FF;
+            margin-bottom: 80px;
+          }
+          .abt{
+            color: #0C1618;
+            font-family: 'Poppins',sans-serif;
+            font-size: 20px;
+            margin-right: 100px;
+            line-height: 40px;
+            padding-top: 100px;
+           
+          }
+          .abt::selection{
+            background-color:#E3E7D3 ;
+           
+          }
+        
+          .text-container {
+            display: flex;
+            flex-wrap: wrap;
+          }
+          
+          .text-column {
+            flex: 1 1 50%;
+            padding: 20px;
+            box-sizing: border-box;
+          }
+          
+          @media (max-width: 970px) {
+           .text-column {
+              flex: 1 1 100%;
+            }
+            .abt{
+              margin-left: 40px;
+              margin-right: 35px;
+              margin-top: -30px;
+              font-size: 15px;
+            }
+            .heading{
+              margin-left: -10px;
+              margin-left: 50px;
+              font-size: 30px;
+            }
+            #abt{
+              height: auto;
+            }
           }
