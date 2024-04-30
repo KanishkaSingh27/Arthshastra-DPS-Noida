@@ -7,6 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" type = "text/css" href="style.css">
             <link rel="icon" href="favicon.ico">
+            <script src="https://unpkg.com/feather-icons"></script>
             <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
@@ -89,32 +90,29 @@
       <div class="green" style="margin-top: 0px;" ><center><h1 class="h1">Food Safety</h1></center></div>
       <div class="flex-container_1">
         <div class="flex_1 flex_">
-          <img class="card__img" src="../images/depletion.jpg" alt="resources depletion">
-          <h2><i class="fa-solid fa-bolt fa-beat" style="color: #FBAE3C; padding-right: 10px;"></i>Food Safety :</h2>
+          <img class="card__img" src="food safety.jpg" alt="food safety">
+          <h2>Food Safety :</h2>
           <p class="text">
             Food safety refers to the practices and procedures implemented to ensure that food is safe for consumption. This includes measures to prevent contamination by harmful bacteria, viruses, parasites, toxins, and chemicals. Food safety encompasses various stages of food production, processing, storage, distribution, and preparation.    </p>
         </div>
         <div class="flex_1 flex_">
-          <img class="card__img" src="../images/pollution.jpg" alt="pollution">
-          <h2><i class="fa-solid fa-industry fa-beat" style="color: #FBAE3C;padding-right: 10px;"></i>Pollution :</h2>
+          <img class="card__img" src="hygiene.jpg" alt="pollution">
+          <h2>Hygiene Practices :</h2>
         <p class="text">
-          Chemicals, dyes, and finishing agents used in textile production can damage streams and soil. The emission of hazardous chemicals can harm the environment and human health.
-        </p>
+          Implementing rigorous hygiene practices such as regular handwashing with soap and water before handling food, cleaning and sanitizing kitchen surfaces, utensils, and equipment, and wearing appropriate protective clothing like gloves to prevent cross-contamination.  </p>
         </div>
         <div class="flex_">
-          <img class="card__img" src="../images/gas.jpg" alt="Greenhouse gas emissions">
-          <h2><i class="fa-solid fa-wind fa-beat" style="color: #FBAE3C;padding-right: 10px;"></i>Greenhouse Gas :</h2>
+          <img class="card__img" src="storage.jpg" alt="Greenhouse gas emissions">
+          <h2>Proper Food Storage :</h2>
         <p class="text">
-          Due to energy-intensive processes such as manufacturing, transportation, and retail operations, the fashion business contributes significantly to greenhouse gas emissions.
-
+         Storing food at correct temperatures to prevent the growth of bacteria and spoilage. This includes refrigerating perishable items promptly, keeping raw meats separate from ready-to-eat foods to avoid contamination, and ensuring proper packaging to maintain freshness.
         </p> 
         </div>
         <div class="flex_">
-          <img class="card__img" src="../images/waste.jpg" alt="landfills">
-          <h2><i class="fa-solid fa-dumpster fa-beat" style="color: #FBAE3C;padding-right: 10px;"></i>Landfill Waste :</h2>
+          <img class="card__img" src="safe-temperatures.gif" alt="landfills">
+          <h2>Cooking and Handling Temperatures :</h2>
         <p class="text">
-          Discarded garments and accessories frequently wind up in landfills due to overproduction, short lifecycles, consumer behavior, and a lack of biodegradability, contributing to a growing issue of overflowing waste sites.
-
+          Cooking food to the appropriate internal temperature to kill harmful bacteria and pathogens, as well as reheating leftovers thoroughly. Additionally, avoiding the consumption of raw or undercooked foods, especially meat, poultry, seafood, and eggs, to reduce the risk of foodborne illnesses.
 
         </p>
         </div>
@@ -122,6 +120,33 @@
     
       
     </section>
+    <footer class="footer">
+      <div class="footer-content">
+        <p class="footerText">&copy; Delhi Public School Noida</p>
+      </div>
+    </footer>
+    <button onclick="topFunction()" id="top" title="Go to top" style="background-color: #c6ffc6;"><i class="fa-solid fa-chevron-up fa-lg" style="color: #f2f3f4;"></i>up</button>
+    <script>
+      feather.replace();
+    </script>
+   <script>
+      mybutton = document.getElementById("top");
     
+    
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    function topFunction() {
+      document.body.scrollTop = 0; 
+      document.documentElement.scrollTop = 0; 
+    }
+    </script>
     </body>
 </html>
